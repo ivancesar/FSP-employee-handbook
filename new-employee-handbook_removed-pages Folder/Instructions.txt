@@ -1,0 +1,96 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: new-employee-handbook_removed-pages.indd
+
+PACKAGE DATE: 9.1.2018. 14:12
+Creation Date: 9.1.2018.
+Modification Date: 9.1.2018.
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On PageNA, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+FONTS
+7 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: FuturaBT-Heavy; Type: TrueType, Status: OK
+- Name: FuturaBT-Light; Type: TrueType, Status: OK
+- Name: FuturaBT-Medium; Type: TrueType, Status: OK
+- Name: Lato-Light; Type: TrueType, Status: OK
+- Name: Lato-Light; Type: TrueType, Status: OK
+- Name: LeagueSpartan-Bold; Type: OpenType Type 1, Status: OK
+- Name: PlayfairDisplay-Regular; Type: TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 71,565; Lines/Inch: 63,245
+- Name and Type: Process Magenta; Angle: 18,434; Lines/Inch: 63,245
+- Name and Type: Process Yellow; Angle: 0,000; Lines/Inch: 66,666
+- Name and Type: Process Black; Angle: 45,000; Lines/Inch: 70,710
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 8 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 8 use RGB color space
+
+
+PRINT SETTINGS
+PPD: Adobe PDF, (Adobe PDF)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 cm, 0 cm, 0 cm, 0 cm
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Letter
+Paper Dimensions: 20,998 cm x 29,7039 cm
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. new-employee-handbook_removed-pages.indd; type: Adobe InDesign publication; size: 19528K
+2. new-employee-handbook_removed-pages.idml; type: InDesign Markup Document; size: 1133K
+3. new-employee-handbook_removed-pages.pdf; type: Adobe Acrobat Document; size: 7278K
+4. FUTURAH.TTF; type: Font file; size: 38K
+5. FutuLt.ttf; type: Font file; size: 36K
+6. FUTURAM.TTF; type: Font file; size: 37K
+7. Lato-Light.ttf; type: Font file; size: 119K
+8. LeagueSpartan-Bold.otf; type: Font file; size: 24K
+9. PlayfairDisplay-Regular.ttf; type: Font file; size: 182K

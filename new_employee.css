@@ -1,0 +1,199 @@
+@font-face {
+    font-family: futuraLt;
+    src: url(fonts/FutuLt.ttf);
+}
+
+@font-face {
+	font-family: Playfair;
+	src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+	font-family: Futura-medium;
+	src: url(fonts/FUTURAM.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+	background-color: #292934;
+	text-align: center;
+	width:100%;
+	font-family: Playfair;
+}
+
+header>h1 {
+	color: #3f3f49;
+	font-size: 135px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header>h3 {
+	margin:0 auto;
+	color: white;
+	font-family: futuraLt;
+	padding-bottom: 40px;
+	letter-spacing: 5px;
+}
+
+header>img{
+	width:20%;
+	margin:20px;
+}
+
+#nav {
+	float:left;
+	position:fixed;
+	text-align: left;
+	top:50%;
+	width:8%;
+}
+
+#nav a {
+	text-decoration: none;
+	background-color: #292934;
+	font-family: Futura-medium;
+	color: white;
+	display: block;
+	padding:15px 15px;
+	opacity:0.7;
+	transition: opacity 0.5s, background-color 0.5s;
+}
+
+
+#nav a:hover {
+	background-color:#3f3f49;
+	opacity:1;
+}
+
+.mainSections {
+	text-align: center;
+	width:65%;
+	margin:0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mainSections:after {
+	clear:both;
+}
+
+#about_us>h1 {
+	font-family: futuraLt;
+	margin:20px;
+	font-size: 40px;
+}
+
+.nonSerifTitle {
+	font-family: Futura-medium;
+	margin:15px;
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+
+#break {
+	width:25%;
+	margin:0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#mission_statement_head {
+	font-family: Playfair;
+	margin:10px;
+	font-size: 30px;
+}
+
+.normalText {
+	font-family: Futura-medium;
+	font-size: 14px;
+	text-align: left;
+}
+
+.normalHeading {
+	font-family: Futura-medium;
+	font-size: 20px;
+	text-align: left;
+}
+
+#sectionSeparatorImg {
+	width:100%;
+}
+
+.what_we_do_article {
+	max-height:0px;
+	transition: max-height 1s;
+	transition-timing-function: ease-in;
+	overflow:hidden;
+}
+
+.what_we_do_article_open {
+	max-height:1000px;
+}
+
+.what_we_do_article>p {
+	font-family: Futura-medium;
+	font-size: 14px;
+	text-align: left;
+	width:60%;
+	padding:10px;
+	margin:0 auto;
+}
+
+.articleButton_container {
+	margin:0 auto;
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.articleButton {
+	width:11.1%;
+	height: 50px;
+	float:left;
+	margin:0 auto;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	background-color:#292934;
+  	color:grey;
+  	font-family: Futura-medium;
+  	cursor: pointer;
+  	transition: color 0.5s background-color 0.5s;
+}
+
+.articleButton:hover {
+	color:white;
+	background-color: #3f3f49;
+}
+
+.projects {
+	width:33.33%;
+	float:left;
+	padding:10px;
+}
+
+.projects>a {
+	color:black;
+}
+
+.locations {
+	width:33.33%;
+	float:left;
+	padding:10px;
+}
+
+.locationsBorder {
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+p {
+	margin-top:10px;
+	margin-bottom:10px;
+}
