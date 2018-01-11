@@ -3,18 +3,19 @@
 <head>
 	<title>Introduction for new Employees</title>
 	<link rel="stylesheet" type="text/css" href="new_employee.css">
-	<link rel="stylesheet" type="text/css" href="carousel.css">
 	<meta charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="new_employee_smooth_transition.js"></script> 
 	<script src="new_employee_personal.js"></script>
-	<script src="carousel.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<header>
-		<img src="images/logoFS.png">
-		<h1>Introduction</h1>
-		<h3>TO FARSHORE PARTNERS</h3>
+		<img class="headerImg" src="images/logoFS.png" alt="FarShore logo">
+		<h1 class="mainHead">Introduction</h1>
+		<h3 class="secondaryHead">TO FARSHORE PARTNERS</h3>
 	</header>
 	<nav id="nav">
 		<a class="smoothScroll" href="#about_us">About us</a>
@@ -22,6 +23,7 @@
 		<a href="#projects_we_are_proud_of" class="smoothScroll">Projects we are proud of</a>
 		<a href="#our_locations" class="smoothScroll">Our locations</a>
 		<a href="#zagreb_team" class="smoothScroll">Zagreb team</a>
+		<a href="#zagreb_photos" class="smoothScroll">Zagreb photos</a>
 	</nav>
 	<section class="mainSections" id="about_us">
 		<h1>ABOUT US</h1>
@@ -150,12 +152,66 @@
 		</article>
 		<div style="clear:both"></div>
 	</section>
-
 	<section class="mainSections" id="zagreb_team">
 		<h1 class="nonSerifTitle">ZAGREB TEAM</h1>
 		<hr id="break">
 		<p class="normalText">Our office in Croatia counts 20 team members in the area of Software architecture, Project management, Accounting, Finance, HR, Design, SEO and Android. Our entrepreneurial team is focused on expanding its global presence by working on interesting projects and encouraging dynamic workflow. We appreciate the positive attitude, initiative, motivation to learn and at least - good sense of humor :)</p>
 	</section>
 	<img src="images/image1.jpg" alt="Zagreb team" class="sectionSeparatorImg" width="100%">
+	<section class="mainSections_wide" id="zagreb_photos">
+		<h1 class="nonSerifTitle">ZAGREB PHOTOS</h1>
+		<hr id="break">
+		<div class="container">
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
+
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+
+		      <div class="item active">
+		        <img src="images/office1.jpg" alt="Janko playing darts" class="photoArticleImage">
+		        <div class="carousel-caption">
+		          <div class=" normalText">Our Project Manager Janko is just posing for a shot, he usually does not know how to play darts (but he enjoys driving bike in the office).</div>
+		        </div>
+		      </div>
+
+		      <div class="item">
+		        <img src="images/office2.jpg" alt="Management sofa" class="photoArticleImage">
+		        <div class="carousel-caption">
+		          <div class=" normalText">Management is very protective about the sofa, they don’t like to share so it’s only natural that everyone else is also using it.</div>
+		        </div>
+		      </div>
+		    
+		      <div class="item">
+		        <img src="images/office3.jpg" alt="Git" class="photoArticleImage">
+		        <div class="carousel-caption">
+		          <div class=" normalText">A branch, a tag, and a reflog walk into a bar. The bartender says, “What is this, some sort of rebase?” Yeah we know, bad GitHub jokes...but we like it!</div>
+		        </div>
+		      </div>
+		  
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+	</section>
+	<footer>
+		<h3 class="secondaryHead">LET'S SAIL</h3>
+		<h1 class="mainHead"  style="margin-top: -20px">Together</h1>
+		<img class="headerImg" src="images/logoFS.png" alt="FarShore logo">
+	</footer>
 </body>
 </html>

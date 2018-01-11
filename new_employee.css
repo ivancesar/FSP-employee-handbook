@@ -26,23 +26,29 @@ header {
 	font-family: Playfair;
 }
 
-header>h1 {
+footer {
+	background-color: #292934;
+	text-align: center;
+	width:100%;
+	font-family: Playfair;
+}
+
+.mainHead {
 	color: #3f3f49;
 	font-size: 135px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-header>h3 {
-	margin:0 auto;
+.secondaryHead {
+	padding:15px;
 	color: white;
 	font-family: futuraLt;
-	padding-bottom: 40px;
 	letter-spacing: 5px;
 }
 
-header>img{
-	width:20%;
+.headerImg{
+	width:15%;
 	margin:20px;
 }
 
@@ -50,7 +56,7 @@ header>img{
 	float:left;
 	position:fixed;
 	text-align: left;
-	top:50%;
+	top:40%;
 	width:8%;
 }
 
@@ -81,6 +87,14 @@ header>img{
 
 .mainSections:after {
 	clear:both;
+}
+
+.mainSections_wide {
+	text-align: center;
+	width:80%;
+	margin:0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 #about_us>h1 {
@@ -128,7 +142,6 @@ header>img{
 .what_we_do_article {
 	max-height:0px;
 	transition: max-height 1s;
-	transition-timing-function: ease-in;
 	overflow:hidden;
 }
 
@@ -196,4 +209,27 @@ header>img{
 p {
 	margin-top:10px;
 	margin-bottom:10px;
+}
+
+.photoArticleImage {
+	width:100%;
+}
+
+.photoArticleText {
+	width:20%;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	padding: 10px;
+  	margin:0 auto;
+}
+
+.photoArticle {
+	margin:20px;
+}
+
+.photoArticle:after {
+	clear:both;
+	content:"";
+	display: table;
 }
