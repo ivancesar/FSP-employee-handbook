@@ -141,7 +141,7 @@ footer {
 
 .what_we_do_article {
 	max-height:0px;
-	transition: max-height 1s;
+	transition: max-height 0.8s;
 	overflow:hidden;
 }
 
